@@ -1,0 +1,35 @@
+.featureSection {
+  padding: var(--spacing-xxl) 0;
+  background-color: var(--background);
+}
+
+.sectionHeader {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-xxl);
+  text-align: center;
+}
+
+.subtitle {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.featureItem {
+  display: flex;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .featuresGrid {
+    grid-template-columns: 1fr;
+  }
+}

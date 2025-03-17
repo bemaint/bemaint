@@ -1,0 +1,128 @@
+.testimonialSection {
+  padding: var(--spacing-xxl) 0;
+  background-color: var(--background-light);
+}
+
+.sectionHeader {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-xl);
+  text-align: center;
+}
+
+.subtitle {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+}
+
+.testimonialCarousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.testimonialContainer {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.testimonialCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: var(--spacing-xl);
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 0.5s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonialCard.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.quoteIcon {
+  color: var(--primary-light);
+  opacity: 0.3;
+  margin-bottom: var(--spacing-md);
+}
+
+.quote {
+  flex: 1;
+  font-style: italic;
+  margin-bottom: var(--spacing-lg);
+}
+
+.authorInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.author {
+  font-weight: 600;
+}
+
+.carouselButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--background);
+  border: 1px solid var(--background-dark);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carouselButton:hover {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-sm);
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--background-dark);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.activeIndicator {
+  background-color: var(--primary-color);
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .testimonialContainer {
+    height: 400px;
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "navbar": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Smart Equipment Maintenance Management",
+    "subtitle": "BeMaint helps businesses optimize maintenance processes, reduce costs, and extend equipment lifespan.",
+    "primaryCta": "Start Free Trial",
+    "secondaryCta": "Learn More"
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "BeMaint provides all the necessary features for effective equipment maintenance management",
+    "monitoring": {
+      "title": "Real-time Monitoring",
+      "description": "Track equipment status in real-time through IoT sensors and intuitive dashboards."
+    },
+    "scheduling": {
+      "title": "Smart Maintenance Scheduling",
+      "description": "Automatically schedule maintenance based on real data and predictions, optimizing time and resources."
+    },
+    "assetManagement": {
+      "title": "Comprehensive Asset Management",
+      "description": "Track the entire lifecycle of equipment, from purchase and use to disposal, with complete information and history."
+    },
+    "analytics": {
+      "title": "In-depth Data Analysis",
+      "description": "Analyze maintenance data and equipment performance to make intelligent business decisions."
+    },
+    "teamManagement": {
+      "title": "Efficient Team Management",
+      "description": "Assign tasks, track progress, and evaluate the performance of your maintenance technician team."
+    },
+    "mobileAccess": {
+      "title": "Mobile Access Anytime, Anywhere",
+      "description": "Manage maintenance remotely through a mobile app, helping technicians work more efficiently."
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Thousands of businesses trust and use BeMaint",
+    "items": [
+      {
+        "quote": "BeMaint has helped us reduce maintenance costs by 30% and increase equipment lifespan by 25%. This is a worthwhile investment for our business.",
+        "author": "John Smith",
+        "position": "Technical Director, ABC Company"
+      },
+      {
+        "quote": "Intuitive interface and easy to use, with a supportive team. BeMaint has completely changed how we manage equipment maintenance.",
+        "author": "Sarah Johnson",
+        "position": "Plant Manager, XYZ Corporation"
+      },
+      {
+        "quote": "BeMaint's ability to predict equipment failures before they occur has helped us avoid many serious incidents, saving billions of dollars each year.",
+        "author": "Michael Brown",
+        "position": "CEO, DEF Company"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to optimize your maintenance process?",
+    "subtitle": "Start a 14-day free trial, no credit card required.",
+    "primaryCta": "Start Free Trial",
+    "secondaryCta": "Contact Us"
+  },
+  "footer": {
+    "description": "BeMaint is a smart equipment maintenance management solution that helps businesses optimize maintenance processes, reduce costs, and extend equipment lifespan.",
+    "copyright": "© 2025 BeMaint. All rights reserved.",
+    "columns": [
+      {
+        "title": "Product",
+        "links": [
+          {
+            "label": "Features",
+            "href": "/features"
+          },
+          {
+            "label": "Pricing",
+            "href": "/pricing"
+          },
+          {
+            "label": "User Guides",
+            "href": "/guides"
+          },
+          {
+            "label": "Roadmap",
+            "href": "/roadmap"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "About Us",
+            "href": "/about"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog"
+          },
+          {
+            "label": "Partners",
+            "href": "/partners"
+          },
+          {
+            "label": "Careers",
+            "href": "/careers"
+          }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          {
+            "label": "Help Center",
+            "href": "/support"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          },
+          {
+            "label": "API Docs",
+            "href": "/api-docs"
+          },
+          {
+            "label": "Community",
+            "href": "/community"
+          }
+        ]
+      }
+    ],
+    "socialLinks": [
+      {
+        "label": "Facebook",
+        "href": "https://facebook.com"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://youtube.com"
+      }
+    ]
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "themeSwitcher": {
+    "toggle": "Toggle color mode",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}

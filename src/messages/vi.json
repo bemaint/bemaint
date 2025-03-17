@@ -1,0 +1,168 @@
+{
+  "navbar": {
+    "home": "Trang chủ",
+    "features": "Tính năng",
+    "pricing": "Bảng giá",
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ",
+    "getStarted": "Bắt đầu ngay"
+  },
+  "hero": {
+    "title": "Quản lý bảo trì thiết bị thông minh",
+    "subtitle": "BeMaint giúp doanh nghiệp tối ưu hóa quy trình bảo trì, giảm chi phí và tăng tuổi thọ thiết bị.",
+    "primaryCta": "Dùng thử miễn phí",
+    "secondaryCta": "Tìm hiểu thêm"
+  },
+  "features": {
+    "title": "Tính năng nổi bật",
+    "subtitle": "BeMaint cung cấp đầy đủ các tính năng cần thiết cho việc quản lý bảo trì thiết bị hiệu quả",
+    "monitoring": {
+      "title": "Giám sát thời gian thực",
+      "description": "Theo dõi tình trạng thiết bị theo thời gian thực thông qua các cảm biến IoT và dashboard trực quan."
+    },
+    "scheduling": {
+      "title": "Lập lịch bảo trì thông minh",
+      "description": "Tự động lập lịch bảo trì dựa trên dữ liệu thực tế và dự đoán, giúp tối ưu hóa thời gian và nguồn lực."
+    },
+    "assetManagement": {
+      "title": "Quản lý tài sản toàn diện",
+      "description": "Theo dõi toàn bộ vòng đời của thiết bị, từ mua sắm, sử dụng đến thanh lý, với đầy đủ thông tin và lịch sử."
+    },
+    "analytics": {
+      "title": "Phân tích dữ liệu chuyên sâu",
+      "description": "Phân tích dữ liệu bảo trì và hiệu suất thiết bị để đưa ra các quyết định kinh doanh thông minh."
+    },
+    "teamManagement": {
+      "title": "Quản lý đội ngũ hiệu quả",
+      "description": "Phân công công việc, theo dõi tiến độ và đánh giá hiệu suất của đội ngũ kỹ thuật viên bảo trì."
+    },
+    "mobileAccess": {
+      "title": "Truy cập di động mọi lúc mọi nơi",
+      "description": "Quản lý bảo trì từ xa thông qua ứng dụng di động, giúp kỹ thuật viên làm việc hiệu quả hơn."
+    }
+  },
+  "testimonials": {
+    "title": "Khách hàng nói gì về chúng tôi",
+    "subtitle": "Hàng nghìn doanh nghiệp đã tin tưởng và sử dụng BeMaint",
+    "items": [
+      {
+        "quote": "BeMaint đã giúp chúng tôi giảm 30% chi phí bảo trì và tăng 25% tuổi thọ thiết bị. Đây là một khoản đầu tư đáng giá cho doanh nghiệp của chúng tôi.",
+        "author": "Nguyễn Văn A",
+        "position": "Giám đốc kỹ thuật, Công ty ABC"
+      },
+      {
+        "quote": "Giao diện trực quan và dễ sử dụng, đội ngũ hỗ trợ nhiệt tình. BeMaint đã thay đổi hoàn toàn cách chúng tôi quản lý bảo trì thiết bị.",
+        "author": "Trần Thị B",
+        "position": "Quản lý nhà máy, Công ty XYZ"
+      },
+      {
+        "quote": "Khả năng dự đoán lỗi thiết bị trước khi xảy ra của BeMaint đã giúp chúng tôi tránh được nhiều sự cố nghiêm trọng, tiết kiệm hàng tỷ đồng mỗi năm.",
+        "author": "Lê Văn C",
+        "position": "CEO, Công ty DEF"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sẵn sàng tối ưu hóa quy trình bảo trì của bạn?",
+    "subtitle": "Bắt đầu dùng thử miễn phí 14 ngày, không cần thẻ tín dụng.",
+    "primaryCta": "Dùng thử miễn phí",
+    "secondaryCta": "Liên hệ với chúng tôi"
+  },
+  "footer": {
+    "description": "BeMaint là giải pháp quản lý bảo trì thiết bị thông minh, giúp doanh nghiệp tối ưu hóa quy trình bảo trì, giảm chi phí và tăng tuổi thọ thiết bị.",
+    "copyright": "© 2025 BeMaint. Tất cả các quyền được bảo lưu.",
+    "columns": [
+      {
+        "title": "Sản phẩm",
+        "links": [
+          {
+            "label": "Tính năng",
+            "href": "/features"
+          },
+          {
+            "label": "Bảng giá",
+            "href": "/pricing"
+          },
+          {
+            "label": "Hướng dẫn sử dụng",
+            "href": "/guides"
+          },
+          {
+            "label": "Roadmap",
+            "href": "/roadmap"
+          }
+        ]
+      },
+      {
+        "title": "Công ty",
+        "links": [
+          {
+            "label": "Về chúng tôi",
+            "href": "/about"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog"
+          },
+          {
+            "label": "Đối tác",
+            "href": "/partners"
+          },
+          {
+            "label": "Tuyển dụng",
+            "href": "/careers"
+          }
+        ]
+      },
+      {
+        "title": "Hỗ trợ",
+        "links": [
+          {
+            "label": "Trung tâm hỗ trợ",
+            "href": "/support"
+          },
+          {
+            "label": "Liên hệ",
+            "href": "/contact"
+          },
+          {
+            "label": "Tài liệu API",
+            "href": "/api-docs"
+          },
+          {
+            "label": "Cộng đồng",
+            "href": "/community"
+          }
+        ]
+      }
+    ],
+    "socialLinks": [
+      {
+        "label": "Facebook",
+        "href": "https://facebook.com"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://youtube.com"
+      }
+    ]
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "themeSwitcher": {
+    "toggle": "Chuyển đổi chế độ màu",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  }
+}

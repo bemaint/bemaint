@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease;
+}
+
+.button:hover {
+  color: var(--color-primary);
+}
+
+.button.active {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.divider {
+  margin: 0 0.25rem;
+  color: var(--color-text-secondary);
+}
