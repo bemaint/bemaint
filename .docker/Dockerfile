@@ -34,5 +34,5 @@ COPY --from=builder /app/package.json ./package.json
 EXPOSE 3000
 
 # Start the Next.js application in production mode
-CMD ["node", "server.js"]  
+CMD ["npm", "run", "start"]  
 # Use standalone build for better efficiency
