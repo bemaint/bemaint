@@ -30,6 +30,9 @@ COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json  
 # Ensure dependency consistency
 
+COPY ./public ./public
+# Static files
+
 # Expose port 3000 for the application (ensure this aligns with your environment settings)
 EXPOSE 3000
 
